@@ -38,7 +38,7 @@ client.on(Events.MessageCreate, async function (message) {
       ChatGPT:`,
       temperature: 0.9,
       max_tokens: 100,
-      stop: ["ChatGPT", "Breno"],
+      stop: [process.env.BOT_NAME, process.env.DISCORD_USERNAME],
     });
     console.log(message.content);
     message.reply(`${response.data.choices[0].text}`);
