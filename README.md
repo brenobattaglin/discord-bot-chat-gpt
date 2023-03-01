@@ -1,6 +1,6 @@
 # discord-bot-chat-gpt
 
-A Discord ChatGPT bot for your server.
+A Discord ChatGPT bot.
 
 ## Setup the project
 
